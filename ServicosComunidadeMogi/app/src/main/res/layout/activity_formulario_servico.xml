@@ -5,28 +5,45 @@
     android:orientation="vertical">
 
     <EditText
-        android:id="@+id/activity_formulario_aluno_nome"
+        android:id="@+id/activity_formulario_servico_nome"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Nome"
         android:inputType="textCapWords"
         android:layout_margin="8dp"/>
+
     <EditText
-        android:id="@+id/activity_formulario_aluno_telefone"
+        android:id="@+id/activity_formulario_tipo_servico"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tipo Serviço"
+        android:inputType="textCapWords"
+        android:layout_margin="8dp"/>
+
+    <EditText
+        android:id="@+id/activity_formulario_redes_sociais"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Redes Sociais"
+        android:inputType="textCapWords"
+        android:layout_margin="8dp"/>
+
+    <EditText
+        android:id="@+id/activity_formulario_servico_telefone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Telefone"
         android:inputType="phone"
         android:layout_margin="8dp"/>
     <EditText
-        android:id="@+id/activity_formulario_aluno_email"
+        android:id="@+id/activity_formulario_servico_email"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="E-mail"
         android:inputType="textEmailAddress"
         android:layout_margin="8dp"/>
     <Button
-        android:id="@+id/activity_formulario_aluno_botao_salvar"
+        android:id="@+id/activity_formulario_servico_botao_salvar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Salvar"
